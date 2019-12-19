@@ -1,0 +1,46 @@
+{
+    "name": "Big Huge Thesaurus",
+    "description": "<p>This site sports a very simple API for retrieving the synonyms for any word. You access the API by making a GET request.<\/p>",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/big-huge-thesaurus.png",
+    "tags": [
+        "api provider",
+        "content",
+        "have api",
+        "thesaurus"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/big-huge-thesaurus\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Big Huge Thesaurus",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/big-huge-thesaurus.png",
+            "humanURL": "https:\/\/words.bighugelabs.com\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/big-huge-thesaurus-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/big-huge-thesaurus-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Developers",
+            "url": "https:\/\/words.bighugelabs.com\/api.php"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/words.bighugelabs.com\/"
+        }
+    ]
+}
