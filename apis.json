@@ -8,8 +8,8 @@
         "have api",
         "thesaurus"
     ],
-    "created": "2019-12-19",
-    "modified": "2019-12-19",
+    "created": "2019-12-20",
+    "modified": "2019-12-20",
     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/big-huge-thesaurus\/master\/apis.json",
     "specificationVersion": "0.14",
     "apis": [
@@ -22,18 +22,18 @@
             "tags": [],
             "properties": [
                 {
-                    "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/big-huge-thesaurus-openapi.json"
-                },
-                {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/big-huge-thesaurus-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/big-huge-thesaurus\/master\/big-huge-thesaurus-postman-collection.json"
                 }
             ]
         }
     ],
     "include": [],
     "x-common": [
+        {
+            "type": "APIs.json",
+            "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/apis.json"
+        },
         {
             "type": "Developers",
             "url": "https:\/\/words.bighugelabs.com\/api.php"
